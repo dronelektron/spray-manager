@@ -5,8 +5,9 @@ Allows you to perform various actions with sprays:
 * Trace spray
 * Remove spray quickly (using trace)
 * Remove all sprays
+* Remove player spray
 * Draw player spray
-* Automatic removal of the player's spray when he leaves
+* Automatic spray removal when client disconnects
 
 ### Supported Games
 
@@ -22,4 +23,5 @@ Allows you to perform various actions with sprays:
 * sm_spraymanager_trace - Trace spray
 * sm_spraymanager_remove_quickly - Remove spray quickly (using trace)
 * sm_spraymanager_remove_all - Remove all sprays
+* sm_spraymanager_remove <#userid|name> - Remove player spray
 * sm_spraymanager_draw <#userid|name> - Draw player spray

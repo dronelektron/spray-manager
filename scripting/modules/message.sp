@@ -16,6 +16,10 @@ void Message_AllSpraysRemoved(int client) {
     LogMessage("\"%L\" removed all sprays", client);
 }
 
+void MessageReply_RemoveSprayUsage(int client) {
+    ReplyToCommand(client, "%s%s", PREFIX, "Usage: sm_spraymanager_remove <#userid|name>");
+}
+
 void MessageReply_DrawSprayUsage(int client) {
     ReplyToCommand(client, "%s%s", PREFIX, "Usage: sm_spraymanager_draw <#userid|name>");
 }

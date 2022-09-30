@@ -35,14 +35,19 @@
         "ru"    "Определить спрей"
     }
 
-    "Remove spray"
+    "Remove spray quickly"
     {
-        "ru"    "Удалить спрей"
+        "ru"    "Удалить спрей (быстро)"
     }
 
     "Remove all sprays"
     {
         "ru"    "Удалить все спреи"
+    }
+
+    "Remove spray"
+    {
+        "ru"    "Удалить спрей"
     }
 
     "Draw spray"

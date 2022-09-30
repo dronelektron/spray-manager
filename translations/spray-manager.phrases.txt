@@ -38,14 +38,19 @@
         "en"    "Trace spray"
     }
 
-    "Remove spray"
+    "Remove spray quickly"
     {
-        "en"    "Remove spray"
+        "en"    "Remove spray (quickly)"
     }
 
     "Remove all sprays"
     {
         "en"    "Remove all sprays"
+    }
+
+    "Remove spray"
+    {
+        "en"    "Remove spray"
     }
 
     "Draw spray"

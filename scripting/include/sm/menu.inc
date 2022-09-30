@@ -9,8 +9,9 @@
 #define SPRAY_MANAGER "Spray manager"
 
 #define ITEM_SPRAY_TRACE "Trace spray"
-#define ITEM_SPRAY_REMOVE "Remove spray"
+#define ITEM_SPRAY_REMOVE_QUICKLY "Remove spray quickly"
 #define ITEM_SPRAY_REMOVE_ALL "Remove all sprays"
+#define ITEM_SPRAY_REMOVE "Remove spray"
 #define ITEM_SPRAY_DRAW "Draw spray"
 
 #define ADMIN_MENU "adminmenu"

@@ -24,7 +24,7 @@ void UseCase_GetSprayInfo(int client, int target) {
     MessageHint_SprayInfo(client, target, steam, time);
 }
 
-void UseCase_TraceAndRemoveSpray(int client) {
+void UseCase_RemoveSprayQuickly(int client) {
     int target = UseCase_TraceSpray(client);
 
     if (target == CLIENT_NOT_FOUND) {
@@ -43,6 +43,11 @@ void UseCase_RemoveAllSprays(int client) {
     }
 
     Message_AllSpraysRemoved(client);
+}
+
+void UseCase_RemoveSprayByTarget(int client, int target) {
+    UseCase_RemoveSpray(target);
+    Message_SprayRemoved(client, target);
 }
 
 void UseCase_RemoveSpray(int client) {
