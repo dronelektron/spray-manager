@@ -30,7 +30,7 @@
 
     "Spray manager"
     {
-        "en"    "Spray management"
+        "en"    "Spray manager"
     }
 
     "Trace spray"
