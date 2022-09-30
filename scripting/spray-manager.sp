@@ -6,6 +6,7 @@
 #include "sm/math"
 #include "sm/menu"
 #include "sm/message"
+#include "sm/sound"
 #include "sm/temp-entity"
 #include "sm/use-case"
 
@@ -14,6 +15,7 @@
 #include "modules/entity.sp"
 #include "modules/menu.sp"
 #include "modules/message.sp"
+#include "modules/sound.sp"
 #include "modules/temp-entity.sp"
 #include "modules/use-case.sp"
 
@@ -29,6 +31,8 @@ public void OnPluginStart() {
     AdminMenu_Create();
     Command_Create();
     TempEntity_HookSpray();
+    Sound_Precache();
+    LoadTranslations("common.phrases");
     LoadTranslations("spray-manager.phrases");
 }
 

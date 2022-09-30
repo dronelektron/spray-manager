@@ -22,6 +22,12 @@
         "en"    "All sprays are removed"
     }
 
+    "Spray drawn"
+    {
+        "#format"   "{1:N}"
+        "en"    "Spray of the {1} is drawn"
+    }
+
     "Spray manager"
     {
         "en"    "Spray management"
@@ -40,5 +46,10 @@
     "Remove all sprays"
     {
         "en"    "Remove all sprays"
+    }
+
+    "Draw spray"
+    {
+        "en"    "Draw spray"
     }
 }

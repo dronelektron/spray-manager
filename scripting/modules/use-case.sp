@@ -50,6 +50,15 @@ void UseCase_RemoveSpray(int client) {
     Client_UnmarkSprayOwner(client);
 }
 
+void UseCase_DrawSpray(int client, int target) {
+    float endPosition[VECTOR_SIZE];
+
+    Entity_TraceEndPosition(client, endPosition);
+    UseCase_Spray(target, endPosition);
+    Sound_Spray(client);
+    Message_SprayDrawn(client, target);
+}
+
 void UseCase_Spray(int client, const float sprayPosition[VECTOR_SIZE]) {
     if (IsClientInGame(client)) {
         TempEntity_Spray(client, sprayPosition);

@@ -15,3 +15,16 @@ void Message_AllSpraysRemoved(int client) {
     ShowActivity2(client, PREFIX, "%t", "All sprays removed");
     LogMessage("\"%L\" removed all sprays", client);
 }
+
+void MessageReply_DrawSprayUsage(int client) {
+    ReplyToCommand(client, "%s%s", PREFIX, "Usage: sm_spraymanager_draw <#userid|name>");
+}
+
+void MessageReply_PlayerNoLongerAvailable(int client) {
+    ReplyToCommand(client, "%s%t", PREFIX, "Player no longer available");
+}
+
+void Message_SprayDrawn(int client, int target) {
+    ShowActivity2(client, PREFIX, "%t", "Spray drawn", target);
+    LogMessage("\"%L\" drawn spray \"%L\"", client, target);
+}
