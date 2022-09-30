@@ -1,0 +1,42 @@
+"Phrases"
+{
+    "Spray not found"
+    {
+        "ru"    "Спрей не найден"
+    }
+
+    "Spray info"
+    {
+        "ru"    "Спрей был сделан игроком {1} {2} в {3}"
+    }
+
+    "Spray removed"
+    {
+        "ru"    "Спрей {1} удален"
+    }
+
+    "All sprays removed"
+    {
+        "ru"    "Все спреи удалены"
+    }
+
+    "Spray manager"
+    {
+        "ru"    "Управление спреями"
+    }
+
+    "Trace spray"
+    {
+        "ru"    "Определить спрей"
+    }
+
+    "Remove spray"
+    {
+        "ru"    "Удалить спрей"
+    }
+
+    "Remove all sprays"
+    {
+        "ru"    "Удалить все спреи"
+    }
+}

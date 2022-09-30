@@ -1,0 +1,44 @@
+"Phrases"
+{
+    "Spray not found"
+    {
+        "en"    "Spray is not found"
+    }
+
+    "Spray info"
+    {
+        "#format"   "{1:N},{2:s},{3:s}"
+        "en"    "Spray was made by player {1} {2} at {3}"
+    }
+
+    "Spray removed"
+    {
+        "#format"   "{1:N}"
+        "en"    "Spray of the {1} is removed"
+    }
+
+    "All sprays removed"
+    {
+        "en"    "All sprays are removed"
+    }
+
+    "Spray manager"
+    {
+        "en"    "Spray management"
+    }
+
+    "Trace spray"
+    {
+        "en"    "Trace spray"
+    }
+
+    "Remove spray"
+    {
+        "en"    "Remove spray"
+    }
+
+    "Remove all sprays"
+    {
+        "en"    "Remove all sprays"
+    }
+}
