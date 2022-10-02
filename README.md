@@ -7,7 +7,6 @@ Allows you to perform various actions with sprays:
 * Remove all sprays
 * Remove player spray
 * Draw player spray
-* Automatic spray removal when client disconnects
 
 ### Supported Games
 
