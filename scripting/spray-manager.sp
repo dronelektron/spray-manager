@@ -55,5 +55,5 @@ public void OnClientConnected(int client) {
 }
 
 public void OnClientDisconnect(int client) {
-    UseCase_RemoveSpray(client);
+    Client_UnmarkSprayOwner(client);
 }
