@@ -5,16 +5,31 @@
         "en"    "Spray is not found"
     }
 
+    "You cannot remove spray"
+    {
+        "en"    "You cannot remove the spray of a player who left the server"
+    }
+
     "Spray info"
     {
-        "#format"   "{1:N},{2:s},{3:s}"
-        "en"    "Spray was made by player {1} {2} at {3}"
+        "#format"   "{1:s},{2:s},{3:s}"
+        "en"    "Spray made by: {1}\nSteam: {2}\nTime: {3}"
     }
 
     "Spray removed"
     {
         "#format"   "{1:N}"
         "en"    "Spray of the {1} is removed"
+    }
+
+    "Sprays not found or cannot be removed"
+    {
+        "en"    "Sprays not found or cannot be removed"
+    }
+
+    "Some sprays removed"
+    {
+        "en"    "Some sprays were removed"
     }
 
     "All sprays removed"

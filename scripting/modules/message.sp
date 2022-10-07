@@ -2,13 +2,26 @@ void MessageReply_SprayNotFound(int client) {
     ReplyToCommand(client, "%s%t", PREFIX, "Spray not found");
 }
 
-void MessageHint_SprayInfo(int client, int target, const char[] steam, const char[] time) {
-    PrintHintText(client, "%t", "Spray info", target, steam, time);
+void MessageReply_YouCannotRemoveSpray(int client) {
+    ReplyToCommand(client, "%s%t", PREFIX, "You cannot remove spray");
+}
+
+void MessageHint_SprayInfo(int client, const char[] name, const char[] steam, const char[] time) {
+    PrintHintText(client, "%t", "Spray info", name, steam, time);
 }
 
 void Message_SprayRemoved(int client, int target) {
     ShowActivity2(client, PREFIX, "%t", "Spray removed", target);
     LogMessage("\"%L\" removed spray \"%L\"", client, target);
+}
+
+void MessageReply_SpraysNotFoundOrCannotBeRemoved(int client) {
+    ReplyToCommand(client, "%s%t", PREFIX, "Sprays not found or cannot be removed");
+}
+
+void Message_SomeSpraysRemoved(int client) {
+    ShowActivity2(client, PREFIX, "%t", "Some sprays removed");
+    LogMessage("\"%L\" removed some sprays", client);
 }
 
 void Message_AllSpraysRemoved(int client) {
