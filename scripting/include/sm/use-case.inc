@@ -5,5 +5,7 @@
 
 #define CLIENT_NOT_FOUND -1
 #define INVALID_CLIENT 0
+#define SPRAY_INDEX_NOT_FOUND -1
 #define SPRAY_DISTANCE_MAX 32.0
 #define TIME_MAX_SIZE 64
+#define TIME_FORMAT "%H:%M:%S"

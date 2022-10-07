@@ -5,14 +5,29 @@
         "ru"    "Спрей не найден"
     }
 
+    "You cannot remove spray"
+    {
+        "ru"    "Нельзя удалить спрей игрока, который ушел с сервера"
+    }
+
     "Spray info"
     {
-        "ru"    "Спрей был сделан игроком {1} {2} в {3}"
+        "ru"    "Спрей сделан: {1}\nSteam: {2}\nВремя: {3}"
     }
 
     "Spray removed"
     {
         "ru"    "Спрей {1} удален"
+    }
+
+    "Sprays not found or cannot be removed"
+    {
+        "ru"    "Спреи не найдены или не могут быть удалены"
+    }
+
+    "Some sprays removed"
+    {
+        "ru"    "Некоторые спреи удалены"
     }
 
     "All sprays removed"
