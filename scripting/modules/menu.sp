@@ -114,11 +114,9 @@ public int MenuHandler_RemoveSpray(Menu menu, MenuAction action, int param1, int
             UseCase_RemoveSprayByTarget(param1, target);
         }
 
-        Menu_DrawSpray(param1);
-    } else if (action == MenuAction_Cancel && param2 == MenuCancel_ExitBack) {
-        Menu_ShowCategory(param1);
-    } else if (action == MenuAction_End) {
-        delete menu;
+        Menu_RemoveSpray(param1);
+    } else {
+        MenuHandler_Default(menu, action, param1, param2);
     }
 
     return 0;
@@ -151,13 +149,19 @@ public int MenuHandler_DrawSpray(Menu menu, MenuAction action, int param1, int p
         }
 
         Menu_DrawSpray(param1);
-    } else if (action == MenuAction_Cancel && param2 == MenuCancel_ExitBack) {
+    } else {
+        MenuHandler_Default(menu, action, param1, param2);
+    }
+
+    return 0;
+}
+
+void MenuHandler_Default(Menu menu, MenuAction action, int param1, int param2) {
+    if (action == MenuAction_Cancel && param2 == MenuCancel_ExitBack) {
         Menu_ShowCategory(param1);
     } else if (action == MenuAction_End) {
         delete menu;
     }
-
-    return 0;
 }
 
 void Menu_AddPlayers(Menu menu) {
